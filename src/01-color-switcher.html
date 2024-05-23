@@ -9,9 +9,22 @@
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <button type="button" data-start>Start</button>
-    <button type="button" data-stop>Stop</button>
-
+    <button type="button" class="start" data-start>Start</button>
+    <button type="button" class="stop" data-stop>Stop</button>
+    <style>
+      .start{
+        /* display: flex; */
+        margin-left:850px;
+        margin-right:15px;
+        margin-top:300px;
+        width:80px;
+        height:30px;
+      }
+      .stop{
+        width:80px;
+        height:30px;
+      }
+    </style>
     <script src="js/01-color-switcher.js" type="module"></script>
   </body>
 </html>
